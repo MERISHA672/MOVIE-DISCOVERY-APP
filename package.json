@@ -1,13 +1,18 @@
+
 {
-  "name": "server",
+  "name": "movie-discovery-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Backend API for the Movie Discovery application",
+  "main": "Server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node Server.js",
+    "dev": "node --watch Server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "movies",
+    "tmdb",
+    "express"
+  ],
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
